@@ -4,18 +4,18 @@
 /* blue text color : #2196F3 */
 /* hover-focus color: #188CE8 */
 
-:root{
-    --primary-text-color:#212121;
-    --secondary-text-color:#757575;
-    --title-white-color:#FFFFFF;
-    --blue-text-color:#2196F3;
-    --hover-focus-color:#188CE8;
+:root {
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --title-white-color: #ffffff;
+  --blue-text-color: #2196f3;
+  --hover-focus-color: #188ce8;
 }
 
-body{
-    font-family: "Roboto", sans-serif;
-    background-color: #FFFFFF;
-    color: var(--primary-text-color);
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #ffffff;
+  color: var(--primary-text-color);
 }
 .list {
   list-style: none;
@@ -26,186 +26,173 @@ body{
 }
 /* ---------------Header---------------- */
 
-.logo{
- text-decoration: none;
- color: var(--primary-text-color);
- font-family: Raleway, sans-serif;
-font-weight: 700;
-font-size: 26px;
-line-height: 1.19;
+.logo {
+  text-decoration: none;
+  color: var(--primary-text-color);
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
 }
-.blue-logo{
-    color: var(--blue-text-color);
+.blue-logo {
+  color: var(--blue-text-color);
 }
 
 /* ----------------------Navigation---------------- */
-.nav-list, .link{
-font-weight: 500;
-font-size: 14px;
-line-height: 1.14;
-color:var(--primary-text-color);
+.nav-list,
+.link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  color: var(--primary-text-color);
 }
-.current{
-    color: var(--blue-text-color);
+.current {
+  color: var(--blue-text-color);
 }
 
 .nav-list .link:hover,
-.nav-list .link:focus{
-color: var(--blue-text-color);
+.nav-list .link:focus {
+  color: var(--blue-text-color);
 }
 
-.nav-mail{
-font-weight: 500;
-font-size: 14px;
-line-height: 1.14;
-color: #2196F3;
+.nav-info {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  color: #757575;
 }
-.nav-tel{
-font-weight: 500;
-font-size: 14px;
-line-height: 1.14;
-color: #757575;
+.nav-info:hover .nav-info:focus {
+  color: var(--hover-focus-color);
 }
-.nav-mail:hover,
-.nav-mail:focus{
-    color: var(--hover-focus-color);
-}
-.nav-tel:hover,
-.nav-tel:focus{
-    color: var(--hover-focus-color);
-}
-
 
 /*----------------Hero--------------*/
-.hero{
-    background-color: #2F303A;
+.hero {
+  background-color: #2f303a;
 }
-.hero-title{
- font-family: 'Roboto';
-font-style: normal;
-font-weight: 900;
-font-size: 44px;
-line-height: 1.4;
-text-align: center;
-letter-spacing: 0.06em;
-text-transform: uppercase;
-color: #FFFFFF;
+.hero-title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.4;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
 }
-.hero-button{
-font-family: inherit;
-font-weight: 700;
-font-size: 16px;
-line-height: 30px;
-letter-spacing: 0.06em;
-color: #FFFFFF;
-background: #2196F3;
-cursor: pointer;
+.hero-button {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  background: #2196f3;
+  cursor: pointer;
 }
 .hero-button:hover,
-.hero-button:focus{
-    color: var(--hover-focus-color);
+.hero-button:focus {
+  background-color: var(--hover-focus-color);
+  color: var(--title-white-color);
 }
 /*-----------------Benefits-------*/
-.benefits-title{
-font-weight: 700;
-font-size: 14px;
-line-height: 1.14;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-color: #212121;
+.benefits-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #212121;
 }
-.benefits-text{
-font-size: 14px;
-line-height: 24px;
-letter-spacing: 0.03em;
-color: #757575;
+.benefits-text {
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #757575;
 }
 /*----------------Works--------*/
-.work-title{
-font-weight: 700;
-font-size: 36px;
-line-height: 1.16;
-letter-spacing: 0.03em;
-color: #212121;
+.work-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  color: #212121;
 }
 /*--------------------Team--------------*/
-.team{
-background-color: #F5F4FA;
+.team {
+  background-color: #f5f4fa;
 }
 
-.team-title{
-    font-weight: 700;
-font-size: 36px;
-line-height: 1.16;
-text-align: center;
-letter-spacing: 0.03em;
-color: #212121;
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
 }
-.team-title-name{
-font-weight: 500;
-font-size: 16px;
-line-height: 1.18;
-text-align: center;
-letter-spacing: 0.03em;
-color: #212121;
+.team-title-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
 }
-.team-position{
-font-size: 16px;
-line-height: 1.18;
-text-align: center;
-letter-spacing: 0.03em;
-color: #757575;
+.team-position {
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #757575;
 }
 /*  ------Footer---------*/
 
-.footer{
-    background-color: #2F303A;
+.footer {
+  background-color: #2f303a;
 }
-.footer-logo{
-text-decoration: none;
- color: var(--title-white-color);
- font-family: Raleway, sans-serif;
-font-weight: 700;
-font-size: 26px;
-line-height: 1.19;
+.footer-logo {
+  text-decoration: none;
+  color: var(--title-white-color);
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
 }
-.footer-list{
-    font-style: normal;
+.footer-list {
+  font-style: normal;
 }
-.footer-adress{
-font-size: 14px;
-line-height: 1.7;
-letter-spacing: 0.03em;
-color: #FFFFFF;
-}
-
-.footer-info{
-font-size: 14px;
-line-height: 1.7;
-letter-spacing: 0.03em;
-color: rgba(255, 255, 255, 0.6);
+.footer-adress {
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: #ffffff;
 }
 
-
+.footer-info {
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
 
 /*-----------------PORTFOLIO------------*/
-.nav-info{
-font-weight: 500;
-font-size: 14px;
-line-height: 1.14;
-letter-spacing: 0.02em;
-color: #757575;
-text-decoration: none;
+.nav-info {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #757575;
+  text-decoration: none;
 }
 .nav-info:hover,
-.nav-info:focus{
-    color: var(--hover-focus-color);
+.nav-info:focus {
+  color: var(--hover-focus-color);
 }
 
 /*----------------Menu------------*/
-}
-.visually-hiden{
- position: absolute;
+.visually-hiden {
+  position: absolute;
   white-space: nowrap;
   width: 1px;
   height: 1px;
@@ -216,43 +203,43 @@ text-decoration: none;
   clip-path: inset(100%);
   margin: -1px;
 }
-.menu-btn{
-font-family: inherit;
-font-weight: 500;
-font-size: 16px;
-line-height: 1.6;
-letter-spacing: 0.03em;
-color:#212121;
-background-color:#F5F4FA;
-cursor: pointer;
+.menu-btn {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  letter-spacing: 0.03em;
+  color: #212121;
+  background-color: #f5f4fa;
+  border: none;
+  cursor: pointer;
 }
 
 .menu-btn:hover,
-.menu-btn:focus{
-    color: #FFFFFF;
-    background-color: var(--blue-text-color);
-
+.menu-btn:focus {
+  color: #ffffff;
+  background-color: var(--blue-text-color);
 }
 /*---------------Projects-------------*/
-.projects-title{
-    font-weight: 700;
-font-size: 18px;
-line-height: 2;
-letter-spacing: 0.06em;
-color: #212121;
+.projects-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: #212121;
 }
-.projects-text{
-font-size: 16px;
-line-height: 1.8;
-letter-spacing: 0.03em;
-color: #757575;
+.projects-text {
+  font-size: 16px;
+  line-height: 1.8;
+  letter-spacing: 0.03em;
+  color: #757575;
 }
 /*------------Footer-----------*/
 .footer-adress:hover,
-.footer-adress:focus{
-    color: var(--hover-focus-color);
+.footer-adress:focus {
+  color: var(--hover-focus-color);
 }
 .footer-info:hover,
-.footer-info:focus{
-    color: var(--hover-focus-color);
+.footer-info:focus {
+  color: var(--hover-focus-color);
 }
